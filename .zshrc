@@ -105,3 +105,12 @@ alias pip="pip3"
 pythonenv() {
     python -c "import os; print(os.environ['_'])"
 }
+# Add Visual Studio Code (code)
+export PATH="$PATH:/Applications/Visual Studio Code.app/Contents/Resources/app/bin"
+
+# Add alias for thefuck
+eval $(thefuck --alias)
+
+# set the gopath and end this nightmare
+export GOPATH="/Users/josemendez/Documents/fourkites/dy/go/"
+
